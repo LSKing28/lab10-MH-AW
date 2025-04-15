@@ -12,9 +12,10 @@ def sub(a, b):
     return a - b
 def mul(a, b):
     return a * b
-def div(a, b):
+def divide(a, b):
     if a == 0:
-        raise ZeroDivisionError
+        raise ZeroDivisionError("Cannot divide by zero.")
+    return b / a
     return b / a
 def log(a, b):
     if a == 1:
