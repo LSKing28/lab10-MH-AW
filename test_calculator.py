@@ -1,3 +1,7 @@
+# https://github.com/LSKing28/lab10-MH-AW
+# Partner 1: Mattias Hird
+# Partner 2: Andy Weisenborn
+
 import unittest
 from calculator import *
 
@@ -7,7 +11,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(1000,30000), 31000)
         self.assertEqual(add(-1,-4), -5)
         self.assertEqual(add(0,0), 0)
-        
+
     def test_subtract(self): # 3 assertions
         self.assertEqual(subtract(1, 3), -2)
         self.assertEqual(subtract(100, -100), 200)

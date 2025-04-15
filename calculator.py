@@ -1,9 +1,7 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
+# https://github.com/LSKing28/lab10-MH-AW
+# Partner 1: Mattias Hird
+# Partner 2: Andy Weisenborn
 
-One function per operation, in order.
-"""
 import math
 
 
